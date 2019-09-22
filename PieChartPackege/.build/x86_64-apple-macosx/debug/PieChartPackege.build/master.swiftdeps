@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "d9e71ed935d22540ababe00e4093df26"
+build_time: [1567524692, 983814000]
+inputs:
+  "/Users/alex/Documents/OTUS/\u0414\u043E\u043C\u0430\u0448\u043A\u0430 7 \u0432\u0442\u043E\u0440\u0430\u044F \u043F\u043E\u043F\u044B\u0442\u043A\u0430/PieChartPackege/Sources/PieChartPackege/PieChartPackege.swift": [1567524659, 434130468]

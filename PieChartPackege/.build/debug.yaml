@@ -1,0 +1,65 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.swiftmodule","<PieChartPackege-debug.module>"]
+  "test": ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.swiftmodule","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegePackageTests.xctest/Contents/MacOS/PieChartPackegePackageTests","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.swiftmodule","<PieChartPackege-debug.module>","<PieChartPackegePackageTests-debug.test>","<PieChartPackegeTests-debug.module>"]
+  "PieChartPackege-debug.module": ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.swiftmodule","<PieChartPackege-debug.module>"]
+  "PieChartPackegePackageTests-debug.test": ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegePackageTests.xctest/Contents/MacOS/PieChartPackegePackageTests","<PieChartPackegePackageTests-debug.test>"]
+  "PieChartPackegeTests-debug.module": ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.swiftmodule","<PieChartPackegeTests-debug.module>"]
+default: "main"
+commands: 
+  "<C.PieChartPackege-debug.module>":
+    tool: phony
+    inputs: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.swiftmodule"]
+    outputs: ["<PieChartPackege-debug.module>"]
+
+  "<C.PieChartPackegePackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegePackageTests.xctest/Contents/MacOS/PieChartPackegePackageTests"]
+    outputs: ["<PieChartPackegePackageTests-debug.test>"]
+
+  "<C.PieChartPackegeTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.swiftmodule"]
+    outputs: ["<PieChartPackegeTests-debug.module>"]
+
+  "C.PieChartPackege-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "PieChartPackege"
+    module-output-path: "/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.swiftmodule"
+    inputs: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/Sources/PieChartPackege/PieChartPackege.swift"]
+    outputs: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.build/PieChartPackege.swift.o","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.swiftmodule"]
+    import-paths: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.build"
+    objects: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.build/PieChartPackege.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/Sources/PieChartPackege/PieChartPackege.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "C.PieChartPackegePackageTests-debug.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx/debug/PieChartPackegePackageTests.xctest/Contents/MacOS/PieChartPackegePackageTests"
+    inputs: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.build/PieChartPackege.swift.o","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.build/PieChartPackegeTests.swift.o","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegePackageTests.xctest/Contents/MacOS/PieChartPackegePackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug","-o","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegePackageTests.xctest/Contents/MacOS/PieChartPackegePackageTests","-module-name","PieChartPackegePackageTests","-Xlinker","-bundle","@/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegePackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx"]
+
+  "C.PieChartPackegeTests-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "PieChartPackegeTests"
+    module-output-path: "/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.swiftmodule"
+    inputs: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackege.swiftmodule","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/Tests/PieChartPackegeTests/PieChartPackegeTests.swift","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/Tests/PieChartPackegeTests/XCTestManifests.swift"]
+    outputs: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.build/PieChartPackegeTests.swift.o","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.build/XCTestManifests.swift.o","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.swiftmodule"]
+    import-paths: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.build"
+    objects: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.build/PieChartPackegeTests.swift.o","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/PieChartPackegeTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/.build/x86_64-apple-macosx/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/Tests/PieChartPackegeTests/PieChartPackegeTests.swift","/Users/alex/Documents/OTUS/Домашка 7 вторая попытка/PieChartPackege/Tests/PieChartPackegeTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
